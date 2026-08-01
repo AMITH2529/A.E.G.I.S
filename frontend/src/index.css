@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void-black: #050505;
+  --color-void-dark: #0a0a0f;
+  --color-neon-cyan: #00f3ff;
+  --color-neon-blue: #0077ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-void-black);
+  color: white;
+  overflow: hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  /* Prevent text selection during drag/gestures */
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Custom glowing effects for HUD */
+.glow-text {
+  text-shadow: 0 0 10px var(--color-neon-cyan);
+}
+.glow-border {
+  box-shadow: 0 0 15px var(--color-neon-blue);
+}
+
+/* --- Cinematic Subtitles --- */
+.subtitles-container {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 800px;
+  pointer-events: none;
+  z-index: 100;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitles-container.hidden {
+  opacity: 0;
+  transform: translateX(-50%) translateY(20px);
+}
+
+.subtitles-container.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.subtitles-content {
+  background: rgba(10, 10, 15, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  border-radius: 12px;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5), 0 0 20px rgba(0, 243, 255, 0.1);
+}
+
+.subtitle-line {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  display: flex;
+  gap: 10px;
+}
+
+.subtitle-line.user {
+  color: #ffffff;
+}
+
+.subtitle-line.aegis {
+  color: var(--color-neon-cyan);
+}
+
+.subtitle-speaker {
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.subtitle-text {
+  font-weight: 500;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

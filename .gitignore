@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment & Secret files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Asset Cache & Downloads
+backend/asset_cache/
+asset_cache/
+*.glb
+*.gltf
+*.bin
+
+# Production Builds
+dist/
+frontend/dist/
+build/
+frontend/build/
+
+# Logs & System
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

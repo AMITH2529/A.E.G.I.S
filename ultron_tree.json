@@ -1,0 +1,142 @@
+﻿[
+    {
+        "path":  ".gitignore",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "623845a9c64b5ec5786477533eacaca7ef3912f7",
+        "size":  230,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/623845a9c64b5ec5786477533eacaca7ef3912f7"
+    },
+    {
+        "path":  "LICENSE",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "78102387641e53b09fb3260b895918f2e62d477c",
+        "size":  1069,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/78102387641e53b09fb3260b895918f2e62d477c"
+    },
+    {
+        "path":  "README.md",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "068daffb7fec176b64da91856aa05308479bd0ee",
+        "size":  1921,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/068daffb7fec176b64da91856aa05308479bd0ee"
+    },
+    {
+        "path":  "app",
+        "mode":  "040000",
+        "type":  "tree",
+        "sha":  "06eb0db8dee97d218ca3f9143bf29fc5d8083473",
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/trees/06eb0db8dee97d218ca3f9143bf29fc5d8083473"
+    },
+    {
+        "path":  "app/globals.css",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "48bdfa4d52edbe88b954da09e2cebedde5179863",
+        "size":  4446,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/48bdfa4d52edbe88b954da09e2cebedde5179863"
+    },
+    {
+        "path":  "app/layout.tsx",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "48d84d28b31590b9ac100e05431ee528d656da39",
+        "size":  514,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/48d84d28b31590b9ac100e05431ee528d656da39"
+    },
+    {
+        "path":  "app/page.tsx",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "fdb5fc166cf3ffeb4e10e918af6217e635555633",
+        "size":  108,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/fdb5fc166cf3ffeb4e10e918af6217e635555633"
+    },
+    {
+        "path":  "components",
+        "mode":  "040000",
+        "type":  "tree",
+        "sha":  "1f01d3f0f6ec2419688560a9f1e67a6809371d6e",
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/trees/1f01d3f0f6ec2419688560a9f1e67a6809371d6e"
+    },
+    {
+        "path":  "components/JarvisOrb.tsx",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "12c8339de122063eaa787976dc4a9e94e6ed1a5e",
+        "size":  5441,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/12c8339de122063eaa787976dc4a9e94e6ed1a5e"
+    },
+    {
+        "path":  "docs",
+        "mode":  "040000",
+        "type":  "tree",
+        "sha":  "f2f8d48374eb5139de29c3943bb1a982c77a854e",
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/trees/f2f8d48374eb5139de29c3943bb1a982c77a854e"
+    },
+    {
+        "path":  "docs/screenshot.png",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "539a58c58e41bebb2aabe65612ae06aee1337370",
+        "size":  3156293,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/539a58c58e41bebb2aabe65612ae06aee1337370"
+    },
+    {
+        "path":  "lib",
+        "mode":  "040000",
+        "type":  "tree",
+        "sha":  "741ca0641b3d79c2ac04ad518febc2eaa7bf7b6b",
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/trees/741ca0641b3d79c2ac04ad518febc2eaa7bf7b6b"
+    },
+    {
+        "path":  "lib/handTracker.ts",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "73e44063c54b35a75a82a29c218429e65e73bed5",
+        "size":  8452,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/73e44063c54b35a75a82a29c218429e65e73bed5"
+    },
+    {
+        "path":  "lib/orbScene.ts",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "f4bd5c2ab04ff159da009ddd59703a3a998c04ca",
+        "size":  29870,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/f4bd5c2ab04ff159da009ddd59703a3a998c04ca"
+    },
+    {
+        "path":  "next.config.ts",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "cb651cdc007c4c5087ea7b4e61981bb2733f7d92",
+        "size":  104,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/cb651cdc007c4c5087ea7b4e61981bb2733f7d92"
+    },
+    {
+        "path":  "package-lock.json",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "5eeab2c3dfb9793ebab87e17f47f7ead0783d106",
+        "size":  36385,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/5eeab2c3dfb9793ebab87e17f47f7ead0783d106"
+    },
+    {
+        "path":  "package.json",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "d074007b7b430bd4b54ebc42f07732c33408511b",
+        "size":  502,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/d074007b7b430bd4b54ebc42f07732c33408511b"
+    },
+    {
+        "path":  "tsconfig.json",
+        "mode":  "100644",
+        "type":  "blob",
+        "sha":  "1f51897772c98459f899086e8839bb1e04090175",
+        "size":  698,
+        "url":  "https://api.github.com/repos/SAGAR-TAMANG/ultron-by-sagar-builds/git/blobs/1f51897772c98459f899086e8839bb1e04090175"
+    }
+]
